@@ -2,7 +2,7 @@ import react, * as React from "react";
 import { Page, Grid, Table, Button } from "tabler-react";
 import SiteWrapper from "./SiteWrapper.react";
 
-const salaryUrl = "http://65.2.121.153:8080/api/v1";
+const salaryUrl = "http://34.72.54.44:8080/api/v1";  
 
 class ListSalary extends React.Component {
   constructor(props) {
