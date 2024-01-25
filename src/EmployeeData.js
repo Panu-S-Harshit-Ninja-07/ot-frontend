@@ -3,7 +3,7 @@ import react, * as React from "react";
 import { Grid, StatsCard, Card, colors } from "tabler-react";
 import C3Chart from "react-c3js";
 
-const employeeUrl = "http://43.205.129.0:8081/api/v1";
+const employeeUrl = "http://34.72.54.44/:8080/api/v1";
 
 function generateResult(input) {
   if (input === undefined) {
