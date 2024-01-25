@@ -2,7 +2,7 @@ import react, * as React from "react";
 import { Page, Grid, Table, Button } from "tabler-react";
 import SiteWrapper from "./SiteWrapper.react";
 //import { withTransaction } from '@elastic/apm-rum-react';
-const AttendanceUrl = "http://localhost:8082/api/v1";
+const AttendanceUrl = "http://35.225.33.213:8080/api/v1";
 
 class ListEmployee extends React.Component {
   constructor(props) {
