@@ -3,7 +3,7 @@ import { Page, Grid, Table, Button } from "tabler-react";
 import SiteWrapper from "./SiteWrapper.react";
 //import { withTransaction } from '@elastic/apm-rum-react';
 
-const employeeUrl = "http://localhost:8081/api/v1";
+const employeeUrl = "http://34.72.54.44/:8080/api/v1";
 
 class ListEmployee extends React.Component {
   constructor(props) {
