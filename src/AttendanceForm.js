@@ -4,7 +4,7 @@ import SiteWrapper from "./SiteWrapper.react";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import { withFormik } from "formik";
 
-const AttendanceUrl = "http://35.225.33.213:8080/api/v1"; 
+const AttendanceUrl = "http://16.171.175.47:8080/api/v1"; 
 const AttendanceForm = ({
   values,
   handleChange,
